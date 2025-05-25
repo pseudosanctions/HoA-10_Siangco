@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Meanings Table</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="img/logo.webp">
+</head>
+
+<body class="flower1">
+    <nav class="navbar">
+        <div class="hamburger" aria-label="Toggle navigation" role="button" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="Home.html" class="nav-btn">Home</a>
+            <a href="AboutMe.html" class="nav-btn">About</a>
+            <a href="KnowMeWell.html" class="nav-btn">KnowMe</a>
+            <a href="Flowers.html" class="nav-btn active">Flowers</a>
+        </div>
+    </nav>
+
+    <h1 class="title">Flower Meanings</h1>
+
+    <div class="search-bar">
+        <input id="search" type="text" placeholder="Search by name, color, or meaning...">
+        <button id="search-clear-btn">Search</button>
+    </div>
+
+    <div class="flower-section">
+        <div class="table-wrapper">
+            <table class="flower-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Color</th>
+                        <th>Meaning</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+            <p id="noResultsMessage" style="display: none; text-align: center; margin-top: 1rem;">No results found. :(</p>
+
+        </div>
+
+        <div class="references">
+            <h2>References</h2>
+            <ul>
+                <li>Almanac.com. (2025, February 11). <em>Flower meanings: The language of flowers</em>. The Old
+                    Farmer's Almanac.
+                    <a href="https://www.almanac.com/flower-meanings-language-flowers" target="_blank">Link</a>
+                </li>
+                <li>FlowersLib. (2024, July 21). <em>109 flower meanings: The language of flowers</em>.
+                    <a href="https://flowerslib.com/flower-language/" target="_blank">Link</a>
+                </li>
+                <li>Gardening Channel. (2024, January 31). <em>Secret flower meanings defined, from A to Z</em>.
+                    <a href="https://www.gardeningchannel.com/flower-meanings-dictionary-from-a-to-z-the-secret-victorian-era-language-of-flowers/"
+                        target="_blank">Link</a>
+                </li>
+                <li>Victorian Era. (n.d.). <em>Meaning of flowers | List of meanings from flowers</em>.
+                    <a href="https://victorian-era.org/meaning-of-flowers.html" target="_blank">Link</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="social-media">
+            <a href="https://www.facebook.com/changkiee.siangco" target="_blank">
+                <img src="img/FACEBOOK.jpg" alt="Facebook">
+            </a>
+            <a href="https://x.com/daniel_siangco" target="_blank">
+                <img src="img/twitter.jpg" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com/dailydose_of_nielniel/" target="_blank">
+                <img src="img/Instagram_logo_2022.svg.png" alt="Instagram">
+            </a>
+        </div>
+    </div>
+
+    <div class="glassy-overlay">
+        <canvas></canvas>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Daniel T. Siangco. All rights reserved.</p>
+        <p>Designed & Developed by Daniel T. Siangco</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
